@@ -42,3 +42,32 @@ class Cyclotron:
 
         elif particle_type == "n":
             self.accelerate_neutron()
+
+def cyclotron(particle_type, matrix):
+
+    if len(matrix) < 4:
+
+        print('Matrix must be at least 4x4')
+
+        return 'Matrix must be at least 4x4'
+
+
+    cy = Cyclotron(matrix)
+
+
+    if particle_type == 'e':
+
+        cy.accelerate_electron()
+
+    elif particle_type == 'p':
+
+        cy.accelerate_proton()
+
+    elif particle_type == 'n':
+
+        cy.accelerate_neutron()
+
+
+    print(cy)
+
+    return cy
