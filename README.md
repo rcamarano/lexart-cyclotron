@@ -1,9 +1,7 @@
 # lexart-cyclotron
-Lexart Cyclotron Test
-# lexart-cyclotron
 Exercício parte de teste técnico para vaga de desenvolvedor full stack junior  
 
-# 🚀⚛️🏃 Cyclotron ⚛️🏃🚀
+# 🚀⚛️🏃 Cyclotron Test ⚛️🏃🚀
 
 >>> "Parte de um desafio técnico para um processo seletivo."
 
